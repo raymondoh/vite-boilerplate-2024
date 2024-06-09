@@ -1,6 +1,9 @@
 // pages/Posts.jsx
 import React from "react";
 import useFetchPosts from "../hooks/useFetchPosts";
+//react-query - 2 imports
+//import useFetchCartItems from "../hooks/useFetchCartItems";
+//import { fetchCartItems } from "../features/cart/cartSlice";
 
 const Posts = () => {
   const { data, error, isLoading, isFetching } = useFetchPosts();
